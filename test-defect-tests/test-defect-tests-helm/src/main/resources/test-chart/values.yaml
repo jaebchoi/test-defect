@@ -1,0 +1,5 @@
+
+image:
+  name: test-defect-tests-docker
+  imagePullPolicy: IfNotPresent
+  dockerRepo: ""

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.test</groupId>
+        <artifactId>test-defect</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>test-defect-tests</artifactId>
+    <name>test-defect::Tests</name>
+    <description>Integration tests for test-defect</description>
+
+    <packaging>pom</packaging>
+
+    <properties>
+        <!-- Kubernetes Java Client version -->
+        <kubernetes.client.version>6.0.0</kubernetes.client.version>
+    </properties>
+
+    <modules>
+        <module>test-defect-tests-java</module>
+        <module>test-defect-tests-docker</module>
+        <module>test-defect-tests-helm</module>
+    </modules>
+</project>
