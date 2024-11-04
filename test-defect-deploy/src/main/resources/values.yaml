@@ -2,7 +2,7 @@ spec:
   destination:
     server: https://kubernetes.default.svc
   targetRevision: main
-  repo: https://github.com/abc/test-defect
+  repo: https://github.com/jaebchoi/test-defect
   helm:
     valueFiles:
       - values.yaml
